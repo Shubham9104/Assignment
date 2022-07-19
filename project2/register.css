@@ -1,0 +1,68 @@
+/* body {
+    background-color: rgb(244, 159, 159);
+} */
+
+.container1 {
+    background-color: rgb(244, 159, 159);
+    margin: 0px 400px;
+    padding-bottom: 2rem;
+    margin-top: 180px;
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(115, 109, 109);
+    padding: 10px;
+    
+}
+.ew{
+    color: white;
+}
+
+.main {
+    margin: 0 50px;
+    line-height: 1.9rem;
+}
+
+.user {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pass {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mail_mob {
+    margin-left: 70px;
+}
+
+.user_name {
+    margin-left: 70px;
+
+}
+
+ .btn{
+    width: 150px;
+    height: 2rem;
+    padding: 5px;
+    border-radius:50px;
+    cursor: pointer;
+
+} 
+.ghe{
+    margin-top: 30px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(251, 182, 53);
+    
+    
+    
+}

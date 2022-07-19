@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@700&family=Bungee&family=DM+Serif+Display:ital@0;1&display=swap');
+.container {
+  background-color: rgb(244, 159, 159);
+  margin: 0 470px;
+  margin-top: -10px;
+  width: 500px;
+  height: 300px;
+  padding: 16px;
+}
+
+
+.pagetitle {
+  font-family: 'Albert Sans', sans-serif;
+  font-family: 'Bungee', cursive;
+  font-family: 'DM Serif Display', serif;
+  margin: 0 470px;
+  margin-top: 150px;
+  margin-right: 518px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgb(115, 109, 109);
+}
+
+.u1 {
+
+  font-size: x-large;
+}
+
+.p1 {
+  font-size: x-large;
+}
+
+.registerbtn {
+  
+  margin-top: 7px;
+  margin-left: 180px;
+  width: 150px;
+  height: 2rem;
+  padding: 5px;
+  border-color:chartreuse;
+  border-block-start-style:double;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.newuser {
+  margin-top: 5px;
+  margin-left: 190px;
+}
+
+h1 {
+  padding-top: 1px;
+}
+.nw{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}

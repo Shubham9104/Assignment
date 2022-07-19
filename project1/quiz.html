@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="rules">
+            <div class="info_box">
+                <div class="info_title"></div>
+                <h2>Some Rules of this Quiz</h2>
+            </div>
+
+            <div class="info_list">
+                <div class="info">1. You will have only <span class="sec">15 seconds</span> per each question</div>
+                <div class="info">2. once you select your answer, you can't reselect</div>
+                <div class="info">3. you can't select any option once time goes off</div>
+                <div class="info">4. you can't exit from Quiz while you're playing.</div>
+                <div class="info">5. you'll get points on the basis of your correct answers.</div>
+            </div>
+
+            <div class="buttons">
+                <button class="quit" type="button" onclick="javascript:window.close()">Exit Quiz</button>
+
+                <button class="Restart" onclick="myFunction()">Continue</button>
+            </div>
+        </div>
+
+        <button type="button" onclick="myfu()" id="btn">START QUIZ</button>
+
+
+        <div id="main">
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                    <h2 id="question">Question Text</h2>
+                    <ul class="vn">
+                        <li>
+                            <input type="radio" name="answer" id="a" class="answer">
+                            <label for="a" id="a_text">Answer</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="answer" id="b" class="answer">
+                            <label for="b" id="b_text">Answer</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="answer" id="c" class="answer">
+                            <label for="c" id="c_text">Answer</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="answer" id="d" class="answer">
+                            <label for="d" id="d_text">Answer</label>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <button id="submit">Submit</button>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>

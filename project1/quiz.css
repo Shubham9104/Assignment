@@ -1,0 +1,126 @@
+* {
+    box-sizing: content-box;
+}
+
+
+
+body {
+    background-color: linear-gradient(55deg, rgba(91, 246, 215, 0.6), rgba(217, 151, 224, 0.1));
+
+}
+
+.info_box {
+    padding: 0.7rem;
+    text-align: center;
+}
+
+.info_list {
+    margin-left: 1rem;
+}
+
+.info {
+    line-height: 1.5rem;
+    /* margin-left: 12rem; */
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.info .sec {
+    color: red;
+    font-weight: bold;
+}
+
+/* Rules DIVS  */
+#rules {
+    background-color: #e4b8b8;
+    margin: 200px;
+    text-align: left;
+    /* height: 20rem; */
+    display: block;
+}
+
+#rules.active {
+    display: none;
+}
+
+/* Main divs */
+#main.actives {
+    display: block;
+    background-color: #c3e1ec;
+    /* height: 12rem; */
+    margin: 100px 300px;
+    border: 1.5px solid black;
+}
+
+#main {
+    display: none;
+}
+
+#btn.act {
+    margin-left: 46%;
+    margin-top: 15rem;
+    display: block;
+    padding: 30px;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: darksalmon;
+
+}
+
+#btn {
+    display: none;
+}
+
+#submit {
+    margin-left: 39%;
+    margin-top: 2rem;
+    width: 180px;
+    height: 40px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #F9B5AC;
+}
+
+.reloadbtn {
+    margin-left: 39%;
+    margin-top: 8rem;
+    width: 180px;
+    height: 40px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.reloadbtn:hover {
+    background-color: #F9B5AC;
+}
+
+#question {
+    margin-left: 2rem;
+
+}
+
+
+
+.vn {
+    list-style: none;
+}
+
+.sd {
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    #main.actives {
+        margin: 100px 150px;
+    }
+}
